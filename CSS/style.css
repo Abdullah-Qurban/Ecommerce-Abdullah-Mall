@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:  "Poppins", serif;
+}
+
+/* * Navbar */
+
+.header{
+    background: radial-gradient(#fff,#fffbfb);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.logo img{
+    width: 90px;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(6, 6, 5);
+}
+nav ul li a:hover{
+    text-decoration: underline 2px;
+    text-underline-offset: 3px;
+    color: goldenrod;
+}
+p{
+    color: rgb(6, 6, 5);
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* * Banner */
+
+.header .row{
+    margin-top: 70px;
+}
+ .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+/* .col-2 img{
+    max-width: 80%;
+    padding: 50px 30px;
+} */
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn{
+    display: inline-block;
+    padding: 8px 30px;
+    color: #333;
+    background-color: #aaa;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    color: #fff;
+    background:goldenrod;
+}
+
+ #img{
+    max-width: 70%;
+    height: 500px;
+    padding: 50px 0;
+    background-image: url(../Images/sidepic.jpg);
+    background-size: cover;
+    position: relative;
+    left: 100px;
+ }
+
+/* * Heading */
+
+.heading h1 {
+    font-size: 2.5rem;
+    margin: 20px 0 10px;
+    color: #333;
+    text-align: center;
+}
+
+.heading p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* * Categories */
+
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.category {
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+}
+
+.category img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.category h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.category p {
+    font-size: 0.9rem;
+    color: #777;
+}
+.small-container{
+    max-width: 1800px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+h2 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline goldenrod 4px;
+    text-underline-offset: 15px;
+    position: relative;
+    left: 500px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+.col-3{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.col-3 img{
+    width: 100%;
+}
+.rating i{
+    color: goldenrod;
+}
+.col-3:hover{
+    transform: translateY(-10px);
+}
+/* --------footer---------- */
+.footer{
+    background-color: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color: #8a8a8a;
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 180px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+    line-height: 30px;
+}
+.footer-col-3 ul li a, .footer-col-4 ul li a{
+    color: #8a8a8a;
+}
+ul{
+    list-style-type: none;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+#copyright{
+    text-align: center;
+}
+.footer{
+    margin-top: 100px;
+}
