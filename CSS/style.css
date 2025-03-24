@@ -163,11 +163,11 @@ p{
     padding-right: 25px;
 }
 h2 {
+    position: relative;
+    bottom: 60px;
     text-decoration: underline goldenrod 2px;
     text-underline-offset: 15px;
-    padding-bottom: 10px;
-    padding-top: 20px;
-    margin: 20px 0;
+    margin-top: 10px;
     text-align: center;
     font-size: 30px;
     color: #333;
@@ -190,7 +190,61 @@ h2 {
 .rating i{
     color: goldenrod;
 }
-/* --------footer---------- */
+#link-product{
+    margin-bottom: 30px;
+}
+/*^ banner products */
+
+.body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.banner {
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    background: linear-gradient(to right, #ffffff, #fef5db);
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.banner img{
+    width: 30%;
+    height: 100%;
+}
+.banner h1 {
+    color: #333;
+    font-size: 2em;
+}
+.banner p {
+    font-size: 1.2em;
+    color: #555;
+}
+.shop-now {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+.shop-now:hover {
+    background-color: goldenrod;
+}
+/** --------footer---------- */
 .footer{
     background-color: #000;
     color: #8a8a8a;
