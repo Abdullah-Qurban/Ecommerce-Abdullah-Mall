@@ -16,9 +16,18 @@
             <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <a href="../index.html"><img src="../Images/logo.jpeg" alt="Abdullah Mall"></a>
+                    <a href="../index.html"><img src="../Images/logo white.jpeg" alt="Abdullah Mall"></a>
                 </div>
                 <nav>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="./product.html">Product</a></li>
+                        <li><a href="./aboutus.html">About</a></li>
+                        <li><a href="./contactus.html">Contact</a></li>
+                        <li><a href="./login.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="#"><img src="../Images/cart.png" weight="30px" height="30px"></a>
             </div>
             </div>
             </div>
@@ -29,18 +38,27 @@
                         <h1>Sign Up</h1>
                         <form action="#">
                         <div class="input-box">
-                            <input class="input" type="text"  required>
-                            <i class='bx bxs-user'></i>
+                            <div class="labels">
+                                <label for="name">Username</label>
+                                <i class='bx bxs-user'></i>
+                            </div>
+                            <input id="name" class="input" type="text"  required>
                         </div>
                         <div class="input-box">
-                            <input class="input" type="email"  required>
-                            <i class='bx bxs-envelope'></i>
+                            <div class="labels">
+                                <label for="email">Email</label>
+                                <i class='bx bxs-envelope'></i>
+                            </div>
+                            <input id="email" class="input" type="email"  required>
                         </div>
                         <div class="input-box">
-                            <input class="input" type="password"  required>
-                            <i class='bx bxs-lock-alt'></i>
+                            <div class="labels">
+                                <label for="password">Password</label>
+                                <i class='bx bxs-lock-alt'></i>
+                            </div>
+                            <input id="password" class="input" type="password"  required>
                         </div>
-                        <div class="input-box"><button type="submit" class="btn">Sign Up</button>
+                        <div id="btn" class="input-box"><button type="submit" class="btn">Sign Up</button>
                         </div>
                         
                         <div class="register-link regi-link">

@@ -9,17 +9,25 @@ body{
 
 /* * Navbar */
 
+.header2{
+    background: radial-gradient(#fff,#fffff2);
+    position: sticky;
+    top: 0;
+    z-index: 1
+}
 .header{
-    background: radial-gradient(#fff,#fffbfb);
+    background: radial-gradient(#fff,#fffff2);
 }
 .navbar{
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 0 20px;
+    padding-top: 10px;
+    background-color: #fff;
 }
 nav{
     flex: 1;
-    text-align: right;
+    text-align: center;
 }
 nav ul{
     display: inline-block;
@@ -31,11 +39,11 @@ nav ul li{
 }
 .logo img{
     width: 90px;
-    border-radius: 10px;
+    background-color: #333;
 }
 a{
     text-decoration: none;
-    color: rgb(6, 6, 5);
+    color: #333;
 }
 nav ul li a:hover{
     text-decoration: underline 2px;
@@ -43,7 +51,7 @@ nav ul li a:hover{
     color: goldenrod;
 }
 p{
-    color: rgb(6, 6, 5);
+    color: rgb(6, 5, 5);
 }
 .container{
     max-width: 1300px;
@@ -155,32 +163,32 @@ p{
     padding-right: 25px;
 }
 h2 {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: underline goldenrod 4px;
+    text-decoration: underline goldenrod 2px;
     text-underline-offset: 15px;
-    position: relative;
-    left: 500px;
     padding-bottom: 10px;
     padding-top: 20px;
-    margin-bottom: 10px;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 30px;
+    color: #333;
 }
 .col-3{
     flex-basis: 25%;
     padding: 10px;
     min-width: 200px;
     margin-bottom: 50px;
-    transition: transform 0.5s;
+    transition: all 0.6s;
 }
 .col-3 img{
     width: 100%;
+    transition: all 0.6s;
+    overflow: hidden;
+}
+.col-3 img:hover{
+    transform: scale(1.02);
 }
 .rating i{
     color: goldenrod;
-}
-.col-3:hover{
-    transform: translateY(-10px);
 }
 /* --------footer---------- */
 .footer{

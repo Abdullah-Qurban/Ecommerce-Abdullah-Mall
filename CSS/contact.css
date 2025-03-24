@@ -44,15 +44,20 @@
 
 .header{
     background: radial-gradient(#fff,#ffffff);
+    position: sticky;
+    top: 0;
+    z-index: 1
   }
   .navbar{
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 0 20px;
+    padding-top: 10px;
+    background-color: #fff;
   }
   nav{
     flex: 1;
-    text-align: right;
+    text-align: center;
   }
   nav ul{
     display: inline-block;
@@ -83,7 +88,7 @@
     text-align: center;
     font-size: 30px;
     margin-bottom: 40px;
-    margin-top: 60px;
+    margin-top: 30px;
   }
   h3{
     font-size: 18px;
@@ -121,6 +126,7 @@
     color: #333;
     font-size: 17px;
     line-height: 20px;
+    resize: vertical;
   }
 
   label{
@@ -134,7 +140,7 @@
     color: #333;
     background-color: #cbcbcbf9;
     border-radius: 50px;
-    transition: background 0.5s;
+    transition: all 0.4s;
     border: none;
     font-size: 20px;
   }
